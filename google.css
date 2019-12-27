@@ -1,0 +1,38 @@
+#searchform, #logo {
+    text-align: center;
+}
+#logo {
+    padding-top: 200px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li {
+    display: inline;
+    font: 13px;
+    font-family: sans-serif;
+}
+
+a {
+display: inline-block;
+padding: 15px;
+color:#000;
+opacity: 0.75;
+}
+
+#nav-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+#nav-bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
