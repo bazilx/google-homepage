@@ -1,38 +1,71 @@
-#searchform, #logo {
-    text-align: center;
-}
-#logo {
-    padding-top: 200px;
+/* CSS  */
+
+html, body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    height: 100%;
 }
 
-img {
+section {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-li {
-    display: inline;
-    font: 13px;
-    font-family: sans-serif;
+    text-align: center;
+    
 }
 
 a {
-display: inline-block;
-padding: 15px;
-color:#000;
-opacity: 0.75;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    opacity: 0.75;
+    padding-left: 15px;
+}
+li {
+    display: inline;
 }
 
-#nav-top {
-    position: fixed;
-    top: 0;
-    width: 100%;
+a:hover {
+    text-decoration: underline;
 }
 
+#top-left {
+    position: absolute;
+}
+#top-right {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 7px;
+    position: relative;
+    text-align: right;
+    align-items: center;
+    justify-content: flex-end;
+}
 
-#nav-bottom {
+img {
+    padding-top: 109px;
+}
+
+footer {
     position: fixed;
+    left: 0;
     bottom: 0;
     width: 100%;
+    border-top: 1px solid #e4e4e4;
+    background-color: #f2f2f2;
+    color: #5F6368;
+    line-height: 40px;
+}
+
+#bottom-left {
+    float: left;
+}
+
+#bottom-right {
+    float: right;
+}
+
+input {
+    width: 582px;
+    padding-bottom: 15px;
+    border-radius: 24px;
 }
